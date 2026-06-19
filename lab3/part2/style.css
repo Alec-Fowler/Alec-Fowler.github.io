@@ -50,3 +50,15 @@ h2 {
     margin: auto auto 0 auto;
     letter-spacing: 0.2rem;
 }
+section p:first-of-type {
+    text-indent: 2rem;
+}
+a:hover, a:focus{
+    color: lightpink;
+}
+a:visited, a:active {
+    background-color: darksalmon;
+}
+ul p {
+
+}
