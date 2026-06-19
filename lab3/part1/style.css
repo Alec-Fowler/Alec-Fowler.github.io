@@ -18,10 +18,11 @@ ul {
 h1 {
     color: darkslategray;
     border-bottom: purple dotted 10px;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 h2 {
     font-style: italic;
+    font-size: 1.5rem;
 }
 .job-title {
     color: darkslategray;
