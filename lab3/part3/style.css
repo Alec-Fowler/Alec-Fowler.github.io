@@ -30,6 +30,9 @@ img {
 nav {
     background-color: black;
     padding: 0.5em;
+    position: sticky;
+    top: 0;
+
 }
 
 nav ul {
@@ -37,7 +40,7 @@ nav ul {
     padding: 0;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 nav a {
