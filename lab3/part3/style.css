@@ -25,6 +25,12 @@ img {
 .grid {
     margin: 0 auto;
     max-width: 980px;
+    display: grid;
+    /*
+    https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns
+    */
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
 }
 
 nav {
@@ -53,8 +59,13 @@ nav a {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
 }
 
 .feature {
     width: 200px;
+    float: left;
+    margin: 0 1.5rem 0.3rem 0;
 }
