@@ -41,23 +41,32 @@ footer p {
 h1 {
     font-family: "PT Serif Caption", serif;
     font-size: 2rem;
+    font-weight: bold;
     align-self: center;
     letter-spacing: 0.5rem;
 }
 h2 {
     font-family: "PT Serif Caption", serif;
     font-size: 1.5rem;
+    font-weight: bold;
     margin: auto auto 0 auto;
     letter-spacing: 0.2rem;
 }
 section p:first-of-type {
     text-indent: 2rem;
 }
+a:focus {
+    outline: none;
+}
 a:hover, a:focus{
-    color: lightpink;
+    color: #aa6666;
+    text-decoration: none;
+}
+a[href*="http"] {
+    background: url("external-link-52.png") no-repeat;
 }
 a:visited, a:active {
-    background-color: darksalmon;
+    background-color: #aa6666;
 }
 ul p {
 
