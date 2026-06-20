@@ -73,6 +73,26 @@ a[href*="http"] {
 a:visited, a:active {
     background-color: #ff4666;
 }
-ul p {
+ul {
+    line-height: 1.6;
+    list-style: square;
+
+}
+nav li{
+    list-style: none;
+    margin: 1rem 0;
+}
+nav li a{
+    font-family: "PT Serif Caption", serif;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 4rem;
+    border: 0.2rem solid #aa6666;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
 
 }
