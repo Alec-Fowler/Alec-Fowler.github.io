@@ -40,16 +40,13 @@ for (const image of images) {
 }
 // () => can act as an anonymous function
 btn.addEventListener("click", () => {
+    btn.classList.toggle("dark");
     if (btn.classList.contains("dark")) {
         btn.textContent = "Lighten";
         overlay.style.backgroundColor = "rgb(0 0 0 / 0.5)"
-        btn.classList.remove("dark");
     }
     else {
         btn.textContent = "Darken";
         overlay.style.backgroundColor = "rgb(0 0 0 / 0)"
-        btn.classList.add("dark");
     }
-    //TODO Find a way to toggle dark class with a single line stretch goal
-
 });
