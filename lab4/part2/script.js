@@ -37,9 +37,11 @@ for (const image of images) {
 
     // 8 Keyboard Support Stretch goal
     newImg.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+            updateDisplayImage(event);
+        }
 
     })
-    //TODO Add another event handler to the <img> so that once it is focused via the keyboard, the clicked image can be displayed at full size by pressing the Enter/Return key (and no other key). This is a stretch goal that will take a bit of research to figure out.
 }
 // () => can act as an anonymous function
 btn.addEventListener("click", () => {
