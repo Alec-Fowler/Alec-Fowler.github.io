@@ -9,19 +9,62 @@ Description: This is the home page for INFT1206.
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>INFT-1206- Alec's Home Page for INFT-1206</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title> Alec's Home Page for INFT-1206</title>
+        <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.10/dist/htmx.min.js"
+                        integrity="sha384-H5SrcfygHmAuTDZphMHqBJLc3FhssKjG7w/CeCpFReSfwBWDTKpkzPP8c+cLsK+V"
+                        crossorigin="anonymous"></script>
     </head>
     <body>
     <header>
-        <!---https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
-        -->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><button>Labs
 
-                </button>></li>
-                <li><a href="contact.html">GitHub</a></li>
+        <nav class=" navbar">
+            <ul>
+                <li ><a href="index.html">Home</a></li>
+                <li class = "dropdown">
+                    <button class = "dropdownButton" id = "dropdownButton">
+                        Semester 1
+
+                    </button>
+                    <div class = "dropdown-submenu">
+                        <button class = "dropdownButton" id = "dropdownButton">
+                            lab-1
+                        </button>
+                        <div class = "subMenu">
+                            <a href = "lab1/part1/index.html">Part 1</a>
+                            <a href = "lab1/part2/index.html">Part 2</a>
+                        </div>
+                        <button class = "dropdownButton" id = "dropdownButton">
+                            lab-2
+                        </button>
+                        <div class = "subMenu">
+                            <a href = "lab2/part1/index.html">Part 1</a>
+                            <a href = "lab2/part2/index.html">Part 2</a>
+                        </div>
+                        <button class = "dropdownButton" id = "dropdownButton">
+                            lab-3
+                        </button>
+                        <div class = "subMenu">
+                            <a href = "lab3/part1/index.html">Part 1</a>
+                            <a href = "lab3/part2/index.html">Part 2</a>
+                            <a href = "lab3/part3/index.html">Part 3</a>
+                        </div>
+                        <button class = "dropdownButton" id = "dropdownButton">
+                            lab-4
+                        </button>
+                        <div class = "subMenu">
+                            <a href = "lab4/part1/index.html">Part 1</a>
+                            <a href = "lab4/part2/index.html">Part 2</a>
+                            <a href = "lab4/part3/index.html">Part 3</a>
+                            <a href = "lab4/part4/index.html">Part 4</a>
+                            <a href = "lab4/part5/index.html">Part 5</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li> Semester 2</li>
+                <li> Semester 3</li>
+                <li><a href="about.html">About</a></li>
             </ul>
         </nav>
 
@@ -43,7 +86,7 @@ Description: This is the home page for INFT1206.
     </div>
     <footer>
         <p>Author: Alec Fowler</p>
-        <a href="https://github.com/AlecFowler">Github</a>
+        <a href="https://github.com/Alec-Fowler">Github</a>
     </footer>
     </body>
 </html>
